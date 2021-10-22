@@ -1,0 +1,144 @@
+.bgimg{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./photos/tree.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;   /*Important line */
+    width: 100%;
+    height: 650px;
+}
+.navbar{
+    background: linear-gradient(to right,#ff00cc,#333399);
+}
+.navletter{
+    color: white;
+}
+.navletter:hover{
+    color: yellow;
+}
+.navletter a{
+    color: white;
+    font-weight: bold;
+}
+.navletter a:hover{
+    color: yellow;
+}
+.fa{
+    color: white;
+}
+.logoimg{
+    opacity: 0.8;
+}
+.headerset{
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.headerset h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn{
+    background: linear-gradient(to right,#ff00cc,#333399);
+    transition: 0.2s;
+}
+.btn:hover{
+    border: 1px solid blue;
+}
+
+
+/*-------------------- Group Rules --------------- */
+.postsbgimg{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./photos/backimage.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;   /*Important line */
+    width: 100%;
+    height: 650px;
+}
+.grouprules{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.grouprules h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin: 80px 0px;
+}
+.imgsetting{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+.fa-times{
+    margin-top: 25px;
+}
+.fa-hand-o-down{
+    margin-top: 25px;
+}
+.fa-ban{
+    margin-top: 25px;
+}
+
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.rowsetting p{
+    padding: 10px;
+    color: #6c757d;
+}
+
+/*-------------------- Group Posts --------------- */
+
+.groupposts{
+    height: 1200px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+.groupposts h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card {
+    margin-top: 40px;  
+    transition: 0.2s;
+  }
+.card:hover {
+    border:1px solid #f9004d;
+  }
+.img-fluid{
+    height: 300px;
+}
+
+
+/*-------------------- Our Team --------------- */
+
+.ourteam{
+    height: 700px;
+    padding: 60px 0px 60px;
+    width: 100%;
+}
+
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 70px;
+
+}
+
+.teamsetting .figure-img{
+    border: 4px solid #f9004d;
+}
+
+/*-------------------- Footer --------------- */
+
+.footer{
+    height: 50px;
+}
+.footer h6{
+    line-height: 50px;
+}
