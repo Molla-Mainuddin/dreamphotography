@@ -8,6 +8,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>Dreamphotography</title>
 </head>
@@ -28,7 +31,7 @@
                             <a href="#" class="nav-link">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">GALLERY</a>
+                            <a href="./gallery.html" class="nav-link" target="_blank">GALLERY</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">OURTEAM</a>
@@ -211,8 +214,42 @@
 
       <!----------------------------- Footer --------------------------->
 
-      <footer class="footer">
-        <h6 class="text-center">Copyright 2020, Designed by Molla Mainuddin, CSE student of BIT(TIG)</h6>
+    <footer class="footer">
+        <div class="content">
+            <div class="contact-elements">
+                <h2>Address</h2>
+                <div class="contact">
+                    <div class="place">
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <span class="text">Kolkata, West Bengal</span>
+                    </div>
+                    <div class="phone">
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <span class="text">+91 9748166008</span>
+                    </div>
+                    <div class="mail">
+                        <span><i class="fas fa-envelope"></i></span>
+                        <span class="text">mainuddin.molla1999@gmail.com</span>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>    
+            </div>
+
+            <div class="form-div">
+                <h2>Contact us</h2>
+                <form>
+                    <lable for="email">Email :<span class="asterics">*</span> </lable><br>
+                    <input type="email" placeholder="Enter your email" required><br>
+                    <lable for="message">Message :<span class="asterics">*</span></lable><br>
+                    <textarea class="textinput" placeholder="Enter your message" required></textarea><br>
+                    <button class="button">Send</button>
+                </form>
+            </div>  
+        </div>
      </footer>
      
 </body>

@@ -137,8 +137,81 @@
 /*-------------------- Footer --------------- */
 
 .footer{
-    height: 50px;
+    height: auto;
+    background-color: #111;
+    color: whitesmoke;
+    
 }
-.footer h6{
-    line-height: 50px;
+.content{
+    display: flex;
+    padding: 30px;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
 }
+.content h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.content .contact-elements{
+    width: auto;
+}
+.contact-elements .contact{
+    margin: 20px 0 0 0;
+}
+.content .contact-elements .text{
+    margin-left: 5px;
+}
+.content .contact-elements .social{
+    margin: 20px 0 0 0;
+    width: auto;
+}
+.content .contact-elements .social a{
+    color: #f9004d;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.content .contact-elements .social a:hover{
+    color: #3d3d3d;
+}
+.content .form-div{
+    width: 30%;
+}
+.content .form-div form{
+    margin: 20px 0 0 0;
+}
+.content .form-div input{
+    width: 100%;
+    outline: none;
+}
+
+.content .form-div .asterics{
+    color: #fa0511;
+}
+
+.content .form-div .textinput{
+    width: 100%;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+}
+
+.content .form-div .button{
+    margin-top: 5px;
+    border: none;
+    background-color: #f9004d;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+}
+
+.content .form-div .button:hover{
+    background-color: #3d3d3d;
+}
+
